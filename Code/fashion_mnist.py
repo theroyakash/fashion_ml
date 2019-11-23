@@ -38,7 +38,8 @@ for i in range(10):
     plt.yticks([])
     plt.imshow(train_images[i], cmap=plt.cm.binary)  #Shows picture b&w
     plt.xlabel(class_names[train_labels[i]])
-plt.show()
+    
+plt.show() # Showing images of the first 10 image in the array
 
 # Building of Model:
 model = keras.Sequential([
