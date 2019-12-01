@@ -8,10 +8,10 @@ Original file is located at
 """
 
 import tensorflow as tf
-from tensorflow import keras  # Deep neural API
 import numpy as np
-
 import matplotlib.pyplot as plt
+
+from tensorflow import keras  # Deep neural API
 from matplotlib import style
 
 style.use("dark_background")
